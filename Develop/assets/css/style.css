@@ -1,0 +1,7 @@
+h1{
+  font-family: sans-serif;
+  text-align: right;
+  color: aquamarine;
+  background-image: linear-gradient(to right, blue , black);
+  padding: 100px;
+}
