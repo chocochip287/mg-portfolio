@@ -1,23 +1,43 @@
 * {
   padding: 0;
   margin: 0px;
-  background-color: #e6d4f0f8
+  
 }
 
-h1 {
+header {
   font-family: sans-serif;
   text-align: left;
   color: aquamarine;
-  background-image: linear-gradient(to right, blue , black);
-  padding: 10px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(118, 127, 250));
+  padding: 5px;
 }
 
-nav {
-  background-color: #c78989
+header h1 {
+  display: inline-block;
+  padding: 5px;
+}
+
+header nav {
+  float: right;
+  padding: 5px;
+  margin-top: .5%;
+  margin-right: 1%
+  
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
 }
 
 figure {
   height: 620px;
-  background-color: #5731ff;
   background-image: url("../30th-st-bg.jpg");
+}
+
+body {
+  background-color: rgb(118, 127, 250);
 }
