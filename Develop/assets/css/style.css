@@ -1,7 +1,23 @@
-h1{
+* {
+  padding: 0;
+  margin: 0px;
+  background-color: #e6d4f0f8
+}
+
+h1 {
   font-family: sans-serif;
-  text-align: right;
+  text-align: left;
   color: aquamarine;
   background-image: linear-gradient(to right, blue , black);
-  padding: 100px;
+  padding: 10px;
+}
+
+nav {
+  background-color: #c78989
+}
+
+figure {
+  height: 620px;
+  background-color: #5731ff;
+  background-image: url("../30th-st-bg.jpg");
 }
