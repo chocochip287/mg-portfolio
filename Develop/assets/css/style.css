@@ -7,9 +7,12 @@
 header {
   font-family: sans-serif;
   text-align: left;
-  color: aquamarine;
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(118, 127, 250));
   padding: 5px;
+  position: fixed;
+  width: 100%;
+  opacity: 90%;
+  /*min-height: 5%; Looking for a way to lock this to the top of the body*/
 }
 
 header h1 {
@@ -40,4 +43,20 @@ figure {
 
 body {
   background-color: rgb(13, 14, 27);
+  /*max-height: 90%;*/
 }
+
+main {
+  margin-top: 5px;
+}
+
+main section {
+  margin-left: .5%;
+}
+
+/*Ultimately I want the footer centered at the bottom of the page
+footer {
+  position: relative;
+  margin: 0 0 50% 50%
+}
+*/
