@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0px;
-  
+  color: rgb(253, 205, 115);
 }
 
 header {
@@ -39,5 +39,5 @@ figure {
 }
 
 body {
-  background-color: rgb(118, 127, 250);
+  background-color: rgb(13, 14, 27);
 }
