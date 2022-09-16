@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0px;
   color: rgb(253, 205, 115);
+  box-sizing: border-box;
 }
 
 header {
@@ -48,15 +49,41 @@ body {
 
 main {
   margin-top: 5px;
+  display: flex;
 }
 
 main section {
   margin-left: .5%;
+  width: 85%;
+  }
+
+main section h2 {
+  float: left;
+  border-right: 2px solid rgb(253, 205, 115);
+  padding-right: 5px;  
 }
+
+main section p {
+  margin-left: 5px;
+  float: right;
+  width: 45%
+  }
 
 /*Ultimately I want the footer centered at the bottom of the page
 footer {
   position: relative;
   margin: 0 0 50% 50%
+}
+
+@media screen and (max-width: 992px){
+  .card{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .card{
+    width: 100%;
+  }
 }
 */
