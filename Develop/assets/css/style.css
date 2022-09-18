@@ -1,8 +1,6 @@
 * {
-  padding: 0;
   margin: 0px;
-  color: rgb(253, 205, 115);
-  box-sizing: border-box;
+  color: rgb(253, 205, 115);  
 }
 
 header {
@@ -37,46 +35,41 @@ header nav ul li {
   display: inline-block;
 }
 
-figure {
+.background {
   height: 580px;
   background-image: url("../30th-st-bg.jpg");
 }
 
 body {
   background-color: rgb(13, 14, 27);
-  max-height: 85%;
+  height: 2000px;
 }
 
 main {
-  margin-top: 5px;
+  margin: 5px 5px;
   border: 2px solid white;
+  position: relative;
 }
 
-main section {
+section {
   border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-}
+
+  }
 
 /* section headers should fill the fill height of each section along the left side*/
-main section h2 {
+section h2 {
   border: 2px solid pink;
-  float: left;
-  width: 20%;
 }
 
 /* section p's should fill the height of each section along the right side. */
-main section p {
+section p {
   border: 2px solid turquoise;
-  float: right;
-  width: 80%;
+  display: flex;   
 }
 
 /*Ultimately I want the footer centered at the bottom of the page */
 footer {
-  position: relative;
   margin-top: 5px;
-  
 }
 
 /*
