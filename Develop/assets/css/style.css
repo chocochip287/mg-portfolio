@@ -54,6 +54,7 @@ body {
 main {
   margin: 5px 5px;
   border: 2px solid white;
+  
 }
 
 section {
@@ -72,13 +73,15 @@ section h2 {
 
 section div {
   display: flex;
+  flex: flex-wrap;
   border: 2px solid turquoise;
 }
 
 article {
-  width: 65%;
+  width: 70%;
   margin-left: 12px;
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 article p {
@@ -88,9 +91,12 @@ article p {
 
 .featured-project {
   max-width: 100%;
+  min-width: 100%;
+  display: flex;
 }
 
 .featured-project img {
+  display: flex;
   max-width: 100%;
   opacity: 30%;
   border: 3px solid rgb(174, 178, 199);
@@ -102,7 +108,7 @@ article p {
 
 .project {
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 /* I want .project p tags to display overlapping the image in a fixed position */
@@ -111,7 +117,6 @@ article p {
 }
 .project img {
   max-width: 45%;
-  min-width: 45%;
   opacity: 30%;
   border: 3px solid rgb(174, 178, 199);
 }
