@@ -31,6 +31,15 @@ header nav ul li {
   display: inline-block;
 }
 
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+}
+
 .background {
   height: 780px;
   background-image: url("../images/30th-st-bg.jpg");
@@ -69,6 +78,7 @@ section div {
 article {
   width: 65%;
   margin-left: 12px;
+  
 }
 
 article p {
@@ -91,7 +101,7 @@ article p {
 }
 
 .project {
-  display: inline-block;
+  display: flex;
   
 }
 
