@@ -15,15 +15,16 @@ header {
 header h1 {
   display: inline-block;
   padding: 5px;
-  
+  font-size: 45px;
+  margin-left: 10px;
 }
 
 header nav {
   float: right;
   padding: 5px;
   margin-top: .5%;
-  margin-right: 1%
-  
+  margin-right: 1%;
+  font-size: 32px;
 }
 
 header nav ul li {
@@ -51,9 +52,8 @@ section {
   display: flex;
   }
 
-/* section headers should fill the fill height of each section along the left side*/
 section h2 {
-  font-size: 32px;
+  font-size: 55px;
   padding-right: 16px;
   text-align: right;
   border-right: 10px solid rgba(252, 220, 162, 0.541);
@@ -61,19 +61,18 @@ section h2 {
   margin-bottom: 10px;
 }
 
+section div {
+  display: flex;
+  border: 2px solid turquoise;
+}
+
 article {
   width: 65%;
   margin-left: 12px;
 }
 
-/* section p's should fill the height of each section along the right side. */
 article p {
-  border: 2px solid turquoise;
-}
-
-/* section p's should fill the height of each section along the right side. */
-section div {
-  display: flex;
+  font-size: 20px;
   border: 2px solid turquoise;
 }
 
@@ -91,6 +90,15 @@ section div {
   opacity: 75%;
 }
 
+.project {
+  display: inline-block;
+  
+}
+
+/* I want .project p tags to display overlapping the image in a fixed position */
+.project p {
+  background: rgb(174, 178, 199);
+}
 .project img {
   max-width: 45%;
   min-width: 45%;
