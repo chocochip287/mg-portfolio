@@ -26,10 +26,6 @@ header nav {
   
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
 header nav ul li {
   display: inline-block;
 }
@@ -57,9 +53,17 @@ section {
 
 /* section headers should fill the fill height of each section along the left side*/
 section h2 {
-  display: flex;
-  border: 2px solid pink;
-  width: 35%;
+  font-size: 32px;
+  padding-right: 16px;
+  text-align: right;
+  border-right: 10px solid rgba(252, 220, 162, 0.541);
+  min-width: 25%;
+  margin-bottom: 10px;
+}
+
+article {
+  width: 65%;
+  margin-left: 12px;
 }
 
 /* section p's should fill the height of each section along the right side. */
@@ -69,15 +73,16 @@ article p {
 
 /* section p's should fill the height of each section along the right side. */
 section div {
+  display: flex;
   border: 2px solid turquoise;
 }
 
 .featured-project {
-  
+  max-width: 100%;
 }
 
 .featured-project img {
-  width: 90%;
+  max-width: 100%;
   opacity: 30%;
   border: 3px solid rgb(174, 178, 199);
 }
@@ -87,7 +92,8 @@ section div {
 }
 
 .project img {
-  width: 45%;
+  max-width: 45%;
+  min-width: 45%;
   opacity: 30%;
   border: 3px solid rgb(174, 178, 199);
 }
