@@ -1,3 +1,9 @@
+/*
+9/22/2022:
+Still lots of work to do here. Catching up on missed coursework from the week prior.
+
+*/
+
 * {
   margin: 0px;
   color: rgb(252, 220, 162);  
@@ -5,9 +11,7 @@
 
 header {
   font-family: sans-serif;
-  text-align: left;
   background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(118, 127, 250, 0.164));
-  
   width: 100%;
   opacity: 90%;
 }
@@ -21,40 +25,44 @@ header h1 {
 
 header nav {
   float: right;
-  padding: 5px;
-  margin-top: .5%;
-  margin-right: 1%;
+  padding: 10px;
   font-size: 32px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 header nav ul li {
   display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 header nav ul li a {
   text-decoration: none;
 }
 
+/* hover interactivity for nav links */
 header nav ul li a:hover {
   font-size: 34px;
   color: rgb(255, 255, 255);
 }
 
+/* background to be added back later - still unsure exactly how I want to use it */
 .background {
   height: 780px;
   background-image: url("../images/30th-st-bg.jpg");
   opacity: 10%;
 }
 
+/* height property to be removed on final draft - applied for testing purposes */
 body {
   background-color: rgb(13, 14, 27);
   height: 2000px;
 }
 
 main {
-  margin: 5px 5px;
+  margin: 10px 5px;
   border: 2px solid white;
-  
 }
 
 section {
@@ -115,6 +123,7 @@ article p {
 .project p {
   background: rgb(174, 178, 199);
 }
+
 .project img {
   max-width: 45%;
   opacity: 30%;
@@ -130,16 +139,12 @@ footer {
   margin-top: 5px;
 }
 
-/*
+/* 
 @media screen and (max-width: 992px){
-  .card{
-    width: 50%;
-  }
+  
 }
 
 @media screen and (max-width:768px){
-  .card{
-    width: 100%;
   }
 }
 */
