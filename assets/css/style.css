@@ -57,7 +57,6 @@ header nav ul li a:hover {
 /* height property to be removed on final draft - applied for testing purposes */
 body {
   background-color: rgb(13, 14, 27);
-  height: 2000px;
 }
 
 main {
@@ -97,13 +96,13 @@ article p {
   font-size: 20px;
   border: 2px solid turquoise;
 }
-
+/*
 .project-section {
   display: flex;
 }
-
+*/
 .featured-project {
-  width: 100%;
+  width: 75%;
   margin: 11px;
 }
 
@@ -127,36 +126,13 @@ article p {
   max-width: 48%;
   opacity: 30%;
   border: 3px solid rgb(174, 178, 199);
-  margin: 10px;
+  margin: 11px;
 }
 
 .projects img:hover {
   opacity: 75%;
   transition: 1s;
 }
-
-/* I want .project p tags to display overlapping the image in a fixed position */
-/* project titles to be worked in later.
-.psg-title {
-  color: rgb(2, 2, 2);
-  font-weight: bold;
-  background: rgb(174, 178, 199);
-  position: absolute;
-  margin-top: 250px;
-  margin-left: 11px;
-  padding: 3px;
-}
-
-.bio-title {
-  color: rgb(2, 2, 2);
-  font-weight: bold;
-  background: rgb(174, 178, 199);
-  position: absolute;
-  margin-top: 250px;
-  margin-left: 11px;
-  padding: 3px;
-}
-*/ 
 
 /*Ultimately I want the footer centered at the bottom of the page */
 footer {
@@ -174,5 +150,3 @@ footer {
   }
 }
 */
-
-/* IDEAS ON HOLD FOR NOW */
