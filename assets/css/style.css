@@ -141,6 +141,12 @@ footer {
   text-align: center; 
 }
 
+#under-construction {
+  background:rgb(163, 27, 27);
+  color: rgb(228, 226, 120);
+  font-size: 32px;
+  text-align: center;
+}
 /* 
 @media screen and (max-width: 992px){
   
