@@ -3,13 +3,25 @@
 New custom CSS file for redeploy.
 
 Future stuff:
-- I wanna make a button to switch between a dark and light mode.
+- Set up light/dark mode profiles.
 
 */
+
+/* font-family:'Montserrat', sans-serif */
 
 body {
     background-color: rgb(92, 92, 92);
     color: rgb(253, 251, 251);
+}
+
+.myName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    padding: 6px;
+}
+
+i {
+    font-size: 3em;
 }
 
 .row {
@@ -20,6 +32,13 @@ body {
     border: solid 2px black;
     padding: 7px;
     text-align: center;
+    transition: 1.5s
+}
+
+.thumbnail:hover {
+    border: solid 2px rgb(255, 252, 252);
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
 }
 
 a {
@@ -31,14 +50,17 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(0, 0, 0)
+    color: rgb(198, 206, 91)
 }
 
 a:active {
     color: rgb(207, 56, 56)
 }
 
-.thumbnail:hover {
-    border: solid 2px rgb(112, 112, 112);
-    box-shadow: 2px 2px 2px 2px rgb(112, 112, 112);
+footer {
+    margin-top: 10px;
+}
+
+.footer-resume {
+    font-size: 1.5em;
 }
