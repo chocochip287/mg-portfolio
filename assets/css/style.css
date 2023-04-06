@@ -2,14 +2,43 @@
 4/6/2023:
 New custom CSS file for redeploy.
 
+Future stuff:
+- I wanna make a button to switch between a dark and light mode.
+
 */
 
 body {
     background-color: rgb(92, 92, 92);
-    color: rgb(253, 251, 251)
+    color: rgb(253, 251, 251);
+}
+
+.row {
+    padding-bottom: 9px;
 }
 
 .thumbnail {
     border: solid 2px black;
-    padding: 5px;
+    padding: 7px;
+    text-align: center;
+}
+
+a {
+    color: rgb(253, 251, 251);
+}
+
+a:visited {
+    color: rgb(135, 169, 241)
+}
+
+a:hover {
+    color: rgb(0, 0, 0)
+}
+
+a:active {
+    color: rgb(207, 56, 56)
+}
+
+.thumbnail:hover {
+    border: solid 2px rgb(112, 112, 112);
+    box-shadow: 2px 2px 2px 2px rgb(112, 112, 112);
 }

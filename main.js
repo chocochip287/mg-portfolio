@@ -1,1 +1,1 @@
-// more to come
+// Placeholder file for adding JS functionality down the road
