@@ -1,0 +1,158 @@
+/*
+4/6/2023:
+This is the original custom CSS from the first camp submission of the portfolio. I'm pulling this from the redeploy in favor of Bootstrap and completely redone custom but want to be able to refer to it later.
+
+*/
+
+* {
+  margin: 0px;
+  color: rgb(252, 220, 162);  
+}
+
+header {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(118, 127, 250, 0.164));
+  width: 100%;
+  opacity: 90%;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 5px;
+  font-size: 45px;
+  margin-left: 10px;
+}
+
+header nav {
+  float: right;
+  padding: 10px;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+/* hover interactivity for nav links */
+header nav ul li a:hover {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+}
+
+/* background to be added back later - still unsure exactly how I want to use it */
+.background {
+  height: 780px;
+  background-image: url("../images/30th-st-bg.jpg");
+  opacity: 10%;
+}
+
+/* height property to be removed on final draft - applied for testing purposes */
+body {
+  background-color: rgb(13, 14, 27);
+}
+
+main {
+  margin: 10px 5px;
+  border: 2px solid white;
+}
+
+section {
+  border: 2px solid red;
+  display: flex;
+  }
+
+/* competing development borders - keep border-right for the final version */
+section h2 {
+  font-size: 55px;
+  padding-right: 16px;
+  text-align: right;
+  border-right: 10px solid rgba(252, 220, 162, 0.541);
+  width: 25%;
+  margin-bottom: 10px;
+  border: 2px solid rgb(41, 151, 83);
+}
+
+section div {
+  display: flex;
+  border: 2px solid turquoise;
+}
+
+article {
+  width: 75%;
+  margin-left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article p {
+  font-size: 20px;
+  border: 2px solid turquoise;
+}
+/*
+.project-section {
+  display: flex;
+}
+*/
+.featured-project {
+  width: 75%;
+  margin: 11px;
+}
+
+.featured-project img {
+  display: flex;
+  max-width: 99.4%;
+  opacity: 30%;
+  border: 3px solid rgb(174, 178, 199);
+}
+
+.featured-project img:hover {
+  opacity: 75%;
+  transition: 1s;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects img {
+  max-width: 48%;
+  opacity: 30%;
+  border: 3px solid rgb(174, 178, 199);
+  margin: 11px;
+}
+
+.projects img:hover {
+  opacity: 75%;
+  transition: 1s;
+}
+
+/*Ultimately I want the footer centered at the bottom of the page */
+footer {
+  margin-top: 5px;
+  border: 2px solid white; 
+  text-align: center; 
+}
+
+#under-construction {
+  background:rgb(163, 27, 27);
+  color: rgb(228, 226, 120);
+  font-size: 32px;
+  text-align: center;
+}
+/* 
+@media screen and (max-width: 992px){
+  
+}
+
+@media screen and (max-width:768px){
+  }
+}
+*/
